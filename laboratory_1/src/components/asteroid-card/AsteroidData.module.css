@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.detailRow {
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted #000;
+    margin: 0 4px;
+}
